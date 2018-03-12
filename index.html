@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Base64 Encoder/Decoder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1 class="app-tittle">Unicode Base64 Decoder/Encoder</h1>
+    <div class="col input-wrapper">
+      <label for="input--to-be-converted" class="label label--to-be-converted">Input</label>
+      <input name="input--to-be-converted" type="text" class="typing input--to-be-converted">
+    </div>
+    <div class="col output-wrapper">
+      <label for="output--is-converted" class="label label--is-converted">Output</label>
+      <output name="output--is-converted" type="text" class="typing output--is-converted">
+    </div>
+    <div class="col button-wrapper">
+      <button class="btn btn-decode">Decode</button>
+      <button class="btn btn-encode">Encode</button>
+    </div>
+    <div class="col error-wrapper">
+      <p class="error-message"></p>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+
+</html>

@@ -1,0 +1,91 @@
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background: none;
+  border: none;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-tittle {
+  color: #34495e;
+  font-size: 36px;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  height: 120px;
+  font-weight: bolder;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  padding: 2rem;
+}
+
+.label {
+  padding: 8px;
+  color: #ffffff;
+  font-weight: bolder;
+  border-radius: 15px 0px 0px 15px;
+  min-width: 8%;
+  text-align: center;
+}
+
+.label--to-be-converted {
+  background: #3498db;
+}
+
+.typing {
+  padding: 8px;
+  border-radius: 0px 15px 15px 0px;
+  min-width: 40%;
+  background: #ffffff;
+}
+
+.input--to-be-converted {
+  border: 1px solid #3498db;
+}
+
+.label--is-converted {
+  background: #9b59b6;
+}
+
+.output--is-converted {
+  border: 1px solid #9b59b6;
+}
+
+.btn {
+  background: #1abc9c;
+  width: 20%;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.btn:hover {
+  background: #27ae60;
+}
+.error-message{
+  opacity: 0;
+  padding: 10px;
+  transition: 0.5s all linear;
+  color: #c0392b;
+  border: 1px solid #c0392b;
+  border-radius: 15px ;
+}
